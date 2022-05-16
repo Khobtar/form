@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма по шаблону</title>
+</head>
+
+<style>
+    input {margin-top: 10px;margin-left: 40px;}
+button {margin-top: 30px;}
+</style>
+<body>
+    <form action="">
+<fieldset>
+    <legend>Общая информация</legend>
+    <div>
+        <label for="Surname">Фамилия</label>
+<input type="text" id="Surname" placeholder="Иванов" name="Surname">
+<br>
+<label for="name">Имя</label>
+
+<input type="text" id="name" placeholder="Иван" name="name">
+<br>
+<label for="middleName">Отчество</label>
+<input type="text" id="middleName" placeholder="Иванович" name="middleName">
+<br>
+<label for="email">Отчество</label>
+<input type="email" id="email" placeholder="mail@mail.ru">
+
+    </div>
+</fieldset>
+
+
+<fieldset>
+    <legend>Пол</legend>
+    <div>
+        <input type="radio" id="Gender1" name="gender" value="М">
+        <label for="Gender1">М</label>
+
+
+<input type="radio" id="Gender2" name="gender" value="Ж">
+<label for="Gender2">Ж</label>
+
+
+
+
+    </div>
+</fieldset>
+
+<fieldset>
+    <legend>Хобби</legend>
+    <div>
+        <input type="checkbox" id="Hobby1" name="Hobby" value="Painting">
+        <label for="Hobby1">Рисование</label>
+
+        <input type="checkbox" id="Hobby2" name="Hobby" value="Reading">
+        <label for="Hobby2">Чтение</label>
+
+        <input type="checkbox" id="Hobby3" name="Hobby" value="Knitting">
+        <label for="Hobby3">Вязание</label>
+
+<input type="checkbox" id="Hobby4" name="Hobby" value="Cooking">
+        <label for="Hobby4">Кулинария</label>
+    </div>
+
+  
+</fieldset>
+<div>
+    <button type="submit">Отправить</button>
+    
+    <button type="reset">
+Очистить
+    </button>
+</div>
+    </form>
+    
+</body>
+</html>
